@@ -1,0 +1,17 @@
+
+* {margin: 0px; 
+    padding: 0px;
+box-sizing: border-box;}
+@font-face {font-family:'fuente1' ; src:url('../assets/Font/Bungee-Regular.ttf');}
+    html {width:100%;}
+    #cuerpo { background-image:url(../assets/image/fifafondo.jpg);overflow-x: hidden; background-repeat:repeat-x;background-size:75vw 100vh;background-position:right top;background-attachment:fixed; font-family:'fuente1';width: 100%;}
+    
+    @import "../scss/header";
+    @import "../scss/footer";
+    @import "../scss/mains/index-y-menu-playstation" ;
+    @import "../scss/mains/registro";
+    @import "../scss/mains/detalle-producto" ;
+    @import "../scss/mains/contacto" ;
+
+
+

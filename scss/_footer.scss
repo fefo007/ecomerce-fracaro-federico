@@ -1,0 +1,37 @@
+    /* Pie */
+    .pie {display:grid;grid-template-rows:repeat(4,1fr);grid-template-columns:1fr ;justify-items: center ;background-color: #05595B;box-shadow: 0px 0px 40px 40px #05595B;align-items: stretch;width: 100%;}
+    .pie__menus {list-style: none;display: flex;flex-direction: row; justify-content: space-between;right:10px;}
+    .pie__menus__1{ margin:25px 15px;}
+    .pie__menus__2{ text-decoration: none; color:#E2D784;
+        &:hover {color: white;}}
+    .pie__redes {margin: 40px;grid-row:2/3;}
+    .pie__redes__1 {margin:0px 20px;}
+    .pie__mdpago {display:inline-block ;grid-row:4;justify-self: end;}
+    .pie__mdpago__1 {margin: 0px 15px; height: 60px; width: 70px;color: #E2D784;}
+    .pie__datos {display: inline-block;grid-row: 3/4 ;justify-self:start;margin-left:35px;}
+
+
+    @media screen and ( max-width:530px) {
+        .pie {display:grid;grid-template-rows:repeat(5,1fr) ;justify-items: stretch ;background-color: #05595B;box-shadow: 0px 0px 40px 40px #05595B;width: 100%;}
+        .pie__menus {grid-row:1/6;list-style: none;display: flex;flex-direction:column;justify-content:center;align-items: center;width: 100vw;padding: 0;}
+        .pie__menus__1{ margin:25px 15px;}
+        .pie__menus__2{ text-decoration: none; color:#E2D784;}
+        .pie__redes {grid-row:6/7 ;justify-self: center;display: flex;flex-direction: row;flex-wrap: wrap;margin: 0;}
+        .pie__redes__1 {margin:5vh 2vw;}
+        .pie__mdpago {grid-row:7/8;justify-self:center;display: flex;flex-direction: row;flex-wrap: wrap;}
+        .pie__mdpago__1 {margin: 15px 20px; height: 40px; width: 10vw;color: #E2D784;}
+        .pie__datos {display:none}
+    }
+
+
+    @media (min-width:530px) and (max-width:800px) {
+        .pie {display:grid;grid-template-rows:repeat(5,1fr) ;justify-items: stretch ;background-color: #05595B;box-shadow: 0px 0px 40px 40px #05595B;width: 100%;}
+        .pie__menus {grid-row:1/6;list-style: none;display: flex;flex-direction:column;justify-content:center;align-items: center;}
+        .pie__menus__1{ margin:25px 15px;}
+        .pie__menus__2{ text-decoration: none; color:#E2D784}
+        .pie__redes {grid-row:6/7 ;margin: 40px;justify-self: center;}
+        .pie__redes__1 {margin:0px 20px;}
+        .pie__mdpago {grid-row:7/8;justify-self:center;}
+        .pie__mdpago__1 {margin: 25px 30px; height: 40px; width: 50px;color: #E2D784;}
+        .pie__datos {display:none}
+    }

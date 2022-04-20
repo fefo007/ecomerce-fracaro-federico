@@ -1,0 +1,36 @@
+
+    /* contacto */
+    .principal__contacto {background-color: rgb(228, 228, 228);margin: 0vw 15vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;}
+    .principal__contacto__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( #05595b, #0bacafb2, #e2d784, white);font-size:170%;align-items: center;margin:0}
+    .principal__contacto1 {grid-row: 2;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+    .principal__contacto2 {@extend .principal__contacto1;grid-row: 3;}
+    .principal__contacto3 {@extend .principal__contacto1;grid-row: 4;}
+    .principal__contacto__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-color: white;}
+    .principal__contacto__botones1 { margin-right: 20px;margin-top: 15px;background-color: #4775d1;border-color: black;color: white;width:150px;height:30px;border-radius:10px;font-size:12px;font-weight:lighter;}
+
+
+    @media screen and ( max-width:530px) {
+        /* contacto */
+        .principal__contacto {background-color: rgb(228, 228, 228);margin: 0vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;}
+        .principal__contacto__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( #05595b, #0bacafb2, #e2d784, white);font-size:170%;align-items: center;margin:0}
+        .principal__contacto1 {grid-row: 2;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+        .principal__contacto2 {grid-row: 3;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+        .principal__contacto3 {grid-row: 4;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+        .principal__contacto__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-color: white;}
+        .principal__contacto__botones1 { margin-right: 2vw;margin-top: 15px;background-color: #4775d1;border-color: black;color: white;width:20vw;height:5vw;border-radius:5px;font-size:2vw;font-weight:lighter;}
+    
+    
+    }
+    
+    
+    @media (min-width:530px) and (max-width:800px) {
+        /* contacto */
+        .principal__contacto {background-color: rgb(228, 228, 228);margin: 0vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;}
+        .principal__contacto__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( #05595b, #0bacafb2, #e2d784, white);font-size:170%;align-items: center;margin:0}
+        .principal__contacto1 {grid-row: 2;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+        .principal__contacto2 {grid-row: 3;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+        .principal__contacto3 {grid-row: 4;grid-column: 1/4;background-color: white;padding:0 2vw;color: #4775d1;font-size:20px;}
+        .principal__contacto__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-color: white;}
+        .principal__contacto__botones1 { margin-right: 2vw;margin-top: 15px;background-color: #4775d1;border-color: black;color: white;width:20vw;height:5vw;border-radius:5px;font-size:2vw;font-weight:lighter;}
+    
+    }
