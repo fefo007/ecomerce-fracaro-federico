@@ -1,5 +1,5 @@
 
-    @import "variables";
+    @import "../scss/variables";
 
     /* Pie */
     .pie {display:grid;grid-template-rows:repeat(4,1fr);grid-template-columns:1fr ;justify-items: center ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;align-items: stretch;width: 100%;}

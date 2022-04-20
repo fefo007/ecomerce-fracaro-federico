@@ -1,5 +1,5 @@
 
-    @import "variables";
+    @import "../scss/variables";
 /* Encabezado */
     .encabezado {display:grid;grid-template-areas: "buscar titulo log" "img img img" "barra barra barra";grid-template-columns:1fr 2fr 1fr;grid-template-rows:1fr 4fr 0.5fr;align-items:stretch;line-height: 8px ;box-shadow: 0px 0px 40px 40px $tonalidad-verde;background-color: $tonalidad-verde;width: 100%;} 
     #carouselExampleIndicators { grid-area:img; width:100vw ; height:70vh;border-top: 10px #062C30; border-bottom: 10px #062C30; border-style:solid;overflow: hidden;}

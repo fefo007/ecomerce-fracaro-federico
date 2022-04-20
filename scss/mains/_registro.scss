@@ -1,5 +1,5 @@
 
-    @import "variables";
+    @import "../variables";
     /* Proncipal-de-registro */
     .principalF {background-color: rgb(228, 228, 228);margin: 0vw 15vw; ;display:grid; grid-template-columns: auto auto auto;grid-template-rows:100px repeat(3,500px);align-items:stretch;}
     .principalF__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla, $tonalidad-blanca);font-size:170%;align-items: center;margin:0}

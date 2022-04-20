@@ -1,5 +1,5 @@
 
-    @import "variables";
+    @import "../variables";
     /* Principal */
     .principal {background-color: rgb(228, 228, 228);margin: 0vw 15vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:100px repeat(3,500px);align-items:stretch;}
     .principal__titulo {display: flex;grid-column:1/4;justify-content:center;font-size:170%;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla, $tonalidad-blanca);margin:0;padding:0;align-items: center;}

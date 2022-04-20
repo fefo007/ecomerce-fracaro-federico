@@ -1,5 +1,5 @@
 
-    @import "variables";
+    @import "../variables";
     /* Principal-de-detalle-producto */
     .principalproduc {background-color: rgb(228, 228, 228);margin: 0vw 15vw; ;display:grid; grid-template-columns: 20vw auto 20vw;grid-template-rows:100px repeat(5,500px);align-items:stretch;}
     .principalproduc__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla, $tonalidad-blanca);font-size:170%;align-items: center;margin:0}
