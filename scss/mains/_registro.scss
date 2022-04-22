@@ -7,12 +7,12 @@
     .principalF__form .principalF__form__botones {align-self: center;}
     .principalF__form .principalF__form__terminos {align-self: center;}
     .principalF__form__item {margin:80px 0px 30px 20vw;}
-    .principalF__form__item__letra {color: $tonalidad-azul;margin-right:30px;font-size:20px;}
-    .principalF__form__item__campo { border-radius: 10px; height: 25px;width:200px;padding-left:8px;}
-    .principalF__form__item__campo1 {border-radius: 10px; height: 25px;width:50px;padding-left:8px;}
+    .principalF__form__item__letra {color:map-get($map: $Form, $key:'colorAzul' );margin-right:30px;font-size:20px;}
+    .principalF__form__item__campo { border-radius: map-get($map: $Form, $key: 'radio'); height: 25px;width:200px;padding-left:8px;}
+    .principalF__form__item__campo1 {border-radius: map-get($map: $Form, $key: 'radio'); height: 25px;width:50px;padding-left:8px;}
     .principalF__form__terminos {font-size: 15px; margin-top: 30px;}
     .principalF__form__botones { margin-top: 80px;}
-    .principalF__form__botones1 { margin-right: 20px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:150px;height:30px;border-radius:10px;font-size:12px;font-weight:lighter;}
+    .principalF__form__botones1 { margin-right: 20px;background-color: map-get($map: $Form, $key:'colorAzul' );border-color:map-get($map: $Form, $key:'color' );color: $tonalidad-blanca;width:150px;height:30px;border-radius:map-get($map: $Form, $key: 'radio');font-size:12px;font-weight:lighter;}
 
     @media screen and ( max-width:530px) {
         .principalF {background-color: rgb(228, 228, 228);margin:0; ;display:grid; grid-template-columns: auto auto auto;grid-template-rows:100px repeat(3,500px);align-items:stretch;width: 100%;}
@@ -21,11 +21,11 @@
         .principalF__form .principalF__form__botones {align-self: center;}
         .principalF__form .principalF__form__terminos {align-self: center;}
         .principalF__form__item {margin:80px 0px 30px 20vw;}
-        .principalF__form__item__letra {color: $tonalidad-azul;margin-right:30px;font-size:20px;}
-        .principalF__form__item__campo { border-radius: 10px; height: 25px;width:200px;padding-left:8px;}
+        .principalF__form__item__letra {color: map-get($map: $Form, $key:'colorAzul' );margin-right:30px;font-size:20px;}
+        .principalF__form__item__campo { border-radius: map-get($map: $Form, $key: 'radio'); height: 25px;width:200px;padding-left:8px;}
         .principalF__form__terminos {font-size: 15px; margin-top: 30px;}
         .principalF__form__botones { margin-top: 80px;}
-        .principalF__form__botones1 { margin-right: 2vw;margin-top: 15px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:20vw;height:5vw;border-radius:5px;font-size:2vw;font-weight:lighter;}
+        .principalF__form__botones1 { margin-right: 2vw;margin-top: 15px;background-color: map-get($map: $Form, $key:'colorAzul' );border-color: map-get($map: $Form, $key:'color' );color: $tonalidad-blanca;width:20vw;height:5vw;border-radius:5px;font-size:2vw;font-weight:lighter;}
     }
 
     @media (min-width:530px) and (max-width:800px) {
@@ -35,11 +35,11 @@
         .principalF__form .principalF__form__botones {align-self: center;}
         .principalF__form .principalF__form__terminos {align-self: center;}
         .principalF__form__item {margin:80px 0px 30px 20vw;}
-        .principalF__form__item__letra {color: $tonalidad-azul;margin-right:30px;font-size:20px;}
-        .principalF__form__item__campo { border-radius: 10px; height: 25px;width:200px;padding-left:8px;}
+        .principalF__form__item__letra {color: map-get($map: $Form, $key:'colorAzul' );margin-right:30px;font-size:20px;}
+        .principalF__form__item__campo { border-radius: map-get($map: $Form, $key: 'radio'); height: 25px;width:200px;padding-left:8px;}
         .principalF__form__terminos {font-size: 15px; margin-top: 30px;}
         .principalF__form__botones { margin-top: 80px;}
-        .principalF__form__botones1 { margin-right: 20px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:150px;height:30px;border-radius:10px;}
+        .principalF__form__botones1 { margin-right: 20px;background-color: map-get($map: $Form, $key:'colorAzul' );border-color: map-get($map: $Form, $key:'color' );color: $tonalidad-blanca;width:150px;height:30px;border-radius:map-get($map: $Form, $key: 'radio');}
     }
 
     @media (min-width:800px) and (max-width:1100px) {
@@ -49,9 +49,9 @@
         .principalF__form .principalF__form__botones {align-self: center;}
         .principalF__form .principalF__form__terminos {align-self: center;}
         .principalF__form__item {margin:80px 0px 30px 30vw;}
-        .principalF__form__item__letra {color: $tonalidad-azul;margin-right:30px;font-size:20px;}
-        .principalF__form__item__campo { border-radius: 10px; height: 25px;width:200px;padding-left:8px;}
+        .principalF__form__item__letra {color: map-get($map: $Form, $key:'colorAzul' );margin-right:30px;font-size:20px;}
+        .principalF__form__item__campo { border-radius: map-get($map: $Form, $key: 'radio'); height: 25px;width:200px;padding-left:8px;}
         .principalF__form__terminos {font-size: 15px; margin-top: 30px;}
         .principalF__form__botones { margin-top: 80px;}
-        .principalF__form__botones1 { margin-right: 20px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:150px;height:30px;border-radius:10px;}
+        .principalF__form__botones1 { margin-right: 20px;background-color: map-get($map: $Form, $key:'colorAzul' );border-color: map-get($map: $Form, $key:'color' );color: $tonalidad-blanca;width:150px;height:30px;border-radius:map-get($map: $Form, $key: 'radio');}
     }

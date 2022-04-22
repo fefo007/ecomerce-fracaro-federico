@@ -6,3 +6,10 @@ $tonalidad-verdeclaro:#0bacafb2;
 $tonalidad-amarilla: #E2D784;
 $tonalidad-blanca:white;
 $tonalidad-azul:#4775d1;
+
+// mapa en _registro
+$Form:('radio':10px, 'colorNegro':black ,'colorAzul':#4775d1);
+
+// mixin en _detalle-producto
+
+@mixin flex-column-center {display: flex;flex-direction: column;align-items: center;}

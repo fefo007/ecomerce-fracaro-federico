@@ -9,7 +9,7 @@
     .encabezado__titulo {grid-area:titulo ;display:flex;flex-direction:row ;justify-content:center; color:$tonalidad-amarilla; text-transform:uppercase;margin:4vh 0 0 0;text-decoration:none;}
     .encabezado__titulo1 {font-size:8vh;}
     .encabezado__titulo {animation-name:cambiocolor;animation-duration:3s;animation-timing-function: linear;animation-iteration-count: infinite;}
-    @keyframes cambiocolor { 0% {color:$tonalidad-amarilla;} 25% {color: #4775d1;} 50% {color: white;} 100% {color: black;}
+    @keyframes cambiocolor { 0% {color:$tonalidad-amarilla;} 25% {color: $tonalidad-azul;} 50% {color: $tonalidad-blanca;} 100% {color: black;}
     }
     .encabezado__buscador {grid-area:buscar;display: flex;flex-direction: row;justify-content:flex-start; }
     .encabezado__buscador__1 { margin-left:3vw;margin-right:1vw ;width:18vw;padding-left:8px;}
@@ -22,7 +22,7 @@
     .modal-content {background-color:$tonalidad-amarilla;}
     .modal-header {color: $tonalidad-verde;}
     .modal-body {color: $tonalidad-verde;}
-    .botonregis {background-color: $tonalidad-verde;color: white;}
+    .botonregis {background-color: $tonalidad-verde;color: $tonalidad-blanca;}
     .log-regis-carro__carro {margin-top:4vh ;height: 40px; width: 40px;}
     
     .encabezado__buscador__mobile {display: none;}
