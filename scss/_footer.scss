@@ -2,39 +2,40 @@
     @import "../scss/variables";
 
     /* Pie */
-    .pie {display:grid;grid-template-rows:repeat(4,1fr);grid-template-columns:1fr ;justify-items: center ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;align-items: stretch;width: 100%;}
-    .pie__menus {list-style: none;display: flex;flex-direction: row; justify-content: space-between;right:10px;}
-    .pie__menus__1{ margin:25px 15px;}
-    .pie__menus__2{ text-decoration: none; color:$tonalidad-amarilla;
-        &:hover {color: $tonalidad-blanca;}}
-    .pie__redes {margin: 40px;grid-row:2/3;}
-    .pie__redes__1 {margin:0px 20px;}
-    .pie__mdpago {display:inline-block ;grid-row:4;justify-self: end;}
-    .pie__mdpago__1 {margin: 0px 15px; height: 60px; width: 70px;color: $tonalidad-amarilla;}
-    .pie__datos {display: inline-block;grid-row: 3/4 ;justify-self:start;margin-left:35px;}
-
+    .pie {display:grid;grid-template-rows:repeat(4,1fr);grid-template-columns:1fr ;justify-items: center ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;align-items: stretch;width: 100%;
+        &__menus {list-style: none;display: flex;flex-direction: row; justify-content: space-between;right:10px;
+            &__1{ margin:25px 15px;}
+            &__2{ text-decoration: none; color:$tonalidad-amarilla;
+                &:hover {color: $tonalidad-blanca;}}}
+        &__redes {margin: 40px;grid-row:2/3;
+            &__1 {margin:0px 20px;}}
+        &__mdpago {display:inline-block ;grid-row:4;justify-self: end;
+            &__1 {margin: 0px 15px; height: 60px; width: 70px;color: $tonalidad-amarilla;}}
+        &__datos {display: inline-block;grid-row: 3/4 ;justify-self:start;margin-left:35px;}}
+    
 
     @media screen and ( max-width:530px) {
-        .pie {display:grid;grid-template-rows:repeat(5,1fr) ;justify-items: stretch ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;width: 100%;}
-        .pie__menus {grid-row:1/6;list-style: none;display: flex;flex-direction:column;justify-content:center;align-items: center;width: 100vw;padding: 0;}
-        .pie__menus__1{ margin:25px 15px;}
-        .pie__menus__2{ text-decoration: none; color:$tonalidad-amarilla;}
-        .pie__redes {grid-row:6/7 ;justify-self: center;display: flex;flex-direction: row;flex-wrap: wrap;margin: 0;}
-        .pie__redes__1 {margin:5vh 2vw;}
-        .pie__mdpago {grid-row:7/8;justify-self:center;display: flex;flex-direction: row;flex-wrap: wrap;}
-        .pie__mdpago__1 {margin: 15px 20px; height: 40px; width: 10vw;color: $tonalidad-amarilla;}
-        .pie__datos {display:none}
+        .pie {display:grid;grid-template-rows:repeat(5,1fr) ;justify-items: stretch ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;width: 100%;
+            &__menus {grid-row:1/6;list-style: none;display: flex;flex-direction:column;justify-content:center;align-items: center;width: 100vw;padding: 0;
+                &__1{ margin:25px 15px;}
+                &__2{ text-decoration: none; color:$tonalidad-amarilla;}}
+                &__redes {grid-row:6/7 ;justify-self: center;display: flex;flex-direction: row;flex-wrap: wrap;margin: 0;
+                    &__1 {margin:5vh 2vw;}}
+                &__mdpago {grid-row:7/8;justify-self:center;display: flex;flex-direction: row;flex-wrap: wrap;
+                    &__1 {margin: 15px 20px; height: 40px; width: 10vw;color: $tonalidad-amarilla;}}
+                &__datos {display:none}}
     }
 
 
     @media (min-width:530px) and (max-width:800px) {
-        .pie {display:grid;grid-template-rows:repeat(5,1fr) ;justify-items: stretch ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;width: 100%;}
-        .pie__menus {grid-row:1/6;list-style: none;display: flex;flex-direction:column;justify-content:center;align-items: center;}
-        .pie__menus__1{ margin:25px 15px;}
-        .pie__menus__2{ text-decoration: none; color:$tonalidad-amarilla}
-        .pie__redes {grid-row:6/7 ;margin: 40px;justify-self: center;}
-        .pie__redes__1 {margin:0px 20px;}
-        .pie__mdpago {grid-row:7/8;justify-self:center;}
-        .pie__mdpago__1 {margin: 25px 30px; height: 40px; width: 50px;color: $tonalidad-amarilla;}
-        .pie__datos {display:none}
+        .pie {display:grid;grid-template-rows:repeat(5,1fr) ;justify-items: stretch ;background-color: $tonalidad-verde;box-shadow: 0px 0px 40px 40px $tonalidad-verde;width: 100%;
+            &__menus {grid-row:1/6;list-style: none;display: flex;flex-direction:column;justify-content:center;align-items: center;
+                &__1{ margin:25px 15px;}
+                &__2{ text-decoration: none; color:$tonalidad-amarilla}}
+            &__redes {grid-row:6/7 ;margin: 40px;justify-self: center;
+                &__1 {margin:0px 20px;}}
+            &__mdpago {grid-row:7/8;justify-self:center;
+                &__1 {margin: 25px 30px; height: 40px; width: 50px;color: $tonalidad-amarilla;}}
+            &__datos {display:none}}
+        
     }

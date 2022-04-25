@@ -6,6 +6,9 @@ box-sizing: border-box;}
     html {width:100%;}
     #cuerpo { background-image:url(../assets/image/fifafondo.jpg);overflow-x: hidden; background-repeat:repeat-x;background-size:75vw 100vh;background-position:right top;background-attachment:fixed; font-family:'fuente1';width: 100%;}
     
+    @media screen and ( max-width:530px) {#cuerpo {background-image: none}}
+    @media (min-width:530px) and (max-width:800px) {#cuerpo {background-image: none}}
+
     @import "../scss/header";
     @import "../scss/footer";
     @import "../scss/mains/index-y-menu-playstation" ;
