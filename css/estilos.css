@@ -716,7 +716,7 @@ html {
   grid-column: 1/4;
   justify-content: center;
   font-size: 170%;
-  background-image: linear-gradient(#05595B, rgba(11, 172, 175, 0.6980392157), #E2D784, white);
+  background-image: linear-gradient(#05595B, rgba(11, 172, 175, 0.6980392157), #E2D784);
   margin: 0;
   padding: 0;
   align-items: center;
@@ -727,7 +727,7 @@ html {
   grid-row: 2;
   grid-column: 1/4;
   justify-content: space-around;
-  background-color: white;
+  background-image: url(../assets/image/fondo-gamer.webp);
 }
 .principal__productos1__a, .principal__productos1__c, .principal__productos1__b {
   display: flex;
@@ -738,6 +738,7 @@ html {
   border-color: #E2D784;
   border-style: solid;
   overflow: hidden;
+  background-color: white;
 }
 .principal__productos2 {
   grid-row: 3;
@@ -752,6 +753,7 @@ html {
   border-color: #E2D784;
   border-style: solid;
   overflow: hidden;
+  background-color: white;
 }
 .principal__productos3 {
   grid-row: 4;
@@ -773,8 +775,10 @@ html {
 .principal__productos__seleccion {
   transition-property: transform;
   transition-duration: 1.5s;
-  margin-bottom: 1vh .principal__productos__seleccion r;
-  margin-bottom-transform: scale(1.2);
+  margin-bottom: 1vh;
+}
+.principal__productos__seleccion:hover {
+  transform: scale(1.2);
 }
 .principal__productos__precio {
   display: flex;
@@ -988,7 +992,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos1__b {
     display: flex;
@@ -998,7 +1003,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos1__c {
     display: flex;
@@ -1008,7 +1014,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos2 {
     display: flex;
@@ -1026,7 +1033,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos2__b {
     display: flex;
@@ -1036,7 +1044,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos2__c {
     display: flex;
@@ -1046,7 +1055,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos3 {
     display: flex;
@@ -1064,7 +1074,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos3__productos3__b {
     display: flex;
@@ -1074,7 +1085,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos3__productos3__c {
     display: flex;
@@ -1084,7 +1096,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos__nombre {
     display: flex;
@@ -1156,7 +1169,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos1__b {
     display: flex;
@@ -1166,7 +1180,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos1__c {
     display: flex;
@@ -1176,7 +1191,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos2 {
     display: flex;
@@ -1195,7 +1211,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos2__b {
     display: flex;
@@ -1205,7 +1222,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos2__c {
     display: flex;
@@ -1215,7 +1233,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos3 {
     display: flex;
@@ -1234,7 +1253,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos3__b {
     display: flex;
@@ -1244,7 +1264,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos3__c {
     display: flex;
@@ -1254,7 +1275,8 @@ html {
     border-width: 10px;
     border-color: #E2D784;
     border-style: solid;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    margin-top: 4vh;
   }
   .principal__productos__nombre {
     display: flex;
@@ -1325,6 +1347,7 @@ html {
 }
 .principalF__form__terminos {
   align-self: center;
+  color: #4775d1;
 }
 .principalF__form__item {
   margin: 80px 0px 30px 20vw;

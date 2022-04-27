@@ -21,4 +21,4 @@ $Form:('radio':10px, 'colorNegro':black ,'colorAzul':#4775d1);
 
 @mixin productos-queries1 {display: flex;flex-direction:column;align-items:center;border-radius:5px;border-width:10px;border-color: $tonalidad-amarilla;border-style: solid;}
 
-@mixin productos-queries2 {display: flex;flex-direction:row;justify-content: flex-start;border-radius:5px;border-width:10px;border-color: $tonalidad-amarilla;border-style: solid;margin-bottom: 2vh;}
+@mixin productos-queries2 {display: flex;flex-direction:row;justify-content: flex-start;border-radius:5px;border-width:10px;border-color: $tonalidad-amarilla;border-style: solid;margin-bottom: 8vh;margin-top:4vh ;}
