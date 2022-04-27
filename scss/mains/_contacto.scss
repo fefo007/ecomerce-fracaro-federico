@@ -2,12 +2,12 @@
     @import "../variables";
 
 /* contacto */
-    .principalcontacto {background-color: rgb(228, 228, 228);margin: 0vw 15vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;
-        &__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla, $tonalidad-blanca);font-size:170%;align-items: center;margin:0}
-        &__1 {grid-row: 2;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
+    .principalcontacto {background-image:url(#{$imagen-fondo});margin: 0vw 15vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;
+        &__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla,);font-size:170%;align-items: center;margin:0}
+        &__1 {grid-row: 2;grid-column: 1/4;padding:0 2vw;color: $tonalidad-azul;font-size:20px;padding-top:10px }
         &__2 {@extend .principalcontacto__1;grid-row: 3;}
         &__3 {@extend .principalcontacto__1;grid-row: 4;}
-        &__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-color: $tonalidad-blanca;
+        &__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-image:url(#{$imagen-fondo}) ;
             &__1 { margin-right: 20px;margin-top: 15px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:150px;height:30px;border-radius:10px;font-size:12px;font-weight:lighter;}}
 }
 
@@ -16,10 +16,10 @@
     @media screen and ( max-width:530px) {
         /* contacto */
         .principalcontacto {background-color: rgb(228, 228, 228);margin: 0vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;
-            &__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla, $tonalidad-blanca);font-size:170%;align-items: center;margin:0}
-            &__1 {grid-row: 2;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
-            &__2 {grid-row: 3;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
-            &__3 {grid-row: 4;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
+            &__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla,);font-size:170%;align-items: center;margin:0}
+            &__1 {grid-row: 2;@include contacto-items;}
+            &__2 {grid-row: 3;@include contacto-items;}
+            &__3 {grid-row: 4;@include contacto-items;}
             &__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-color: $tonalidad-blanca;
                 &__1 { margin-right: 2vw;margin-top: 15px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:20vw;height:5vw;border-radius:5px;font-size:2vw;font-weight:lighter;}}}
     }
@@ -28,10 +28,10 @@
     @media (min-width:530px) and (max-width:800px) {
         /* contacto */
         .principalcontacto {background-color: rgb(228, 228, 228);margin: 0vw;display:grid; grid-template-columns: auto auto auto;grid-template-rows:repeat(3,100px) 250px 100px;align-items:stretch;
-            &__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla, $tonalidad-blanca);font-size:170%;align-items: center;margin:0}
-            &__1 {grid-row: 2;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
-            &__2 {grid-row: 3;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
-            &__3 {grid-row: 4;grid-column: 1/4;background-color: $tonalidad-blanca;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
+            &__titulo {display: flex;grid-column:1/4;justify-content:center;background-image: linear-gradient( $tonalidad-verde, $tonalidad-verdeclaro, $tonalidad-amarilla,);font-size:170%;align-items: center;margin:0}
+            &__1 {grid-row: 2;@include contacto-items;}
+            &__2 {grid-row: 3;@include contacto-items;}
+            &__3 {grid-row: 4;@include contacto-items;}
             &__botones {display: flex;flex-direction: row;justify-content: center;grid-row: 5;grid-column: 1/4;background-color: $tonalidad-blanca;
                 &__1 { margin-right: 2vw;margin-top: 15px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;width:20vw;height:5vw;border-radius:5px;font-size:2vw;font-weight:lighter;}}
 }

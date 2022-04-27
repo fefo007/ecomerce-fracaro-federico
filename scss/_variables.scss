@@ -1,11 +1,14 @@
 
 
 // colores
+$tonalidad-verdeoscuro: #062C30;
 $tonalidad-verde: #05595B;
 $tonalidad-verdeclaro:#0bacafb2;
 $tonalidad-amarilla: #E2D784;
 $tonalidad-blanca:white;
 $tonalidad-azul:#4775d1;
+// imagen de fondo
+$imagen-fondo:"../assets/image/fondo-gamer.webp";
 
 // mapa en _registro
 $Form:('radio':10px, 'colorNegro':black ,'colorAzul':#4775d1);
@@ -13,3 +16,9 @@ $Form:('radio':10px, 'colorNegro':black ,'colorAzul':#4775d1);
 // mixin en _detalle-producto
 
 @mixin flex-column-center {display: flex;flex-direction: column;align-items: center;}
+
+@mixin contacto-items {grid-column: 1/4;padding:0 2vw;color: $tonalidad-azul;font-size:20px;}
+
+@mixin productos-queries1 {display: flex;flex-direction:column;align-items:center;border-radius:5px;border-width:10px;border-color: $tonalidad-amarilla;border-style: solid;}
+
+@mixin productos-queries2 {display: flex;flex-direction:row;justify-content: flex-start;border-radius:5px;border-width:10px;border-color: $tonalidad-amarilla;border-style: solid;margin-bottom: 2vh;}
