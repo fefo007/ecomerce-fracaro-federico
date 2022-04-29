@@ -44,16 +44,15 @@
 
 
     @media screen and ( max-width:530px) {
-    .encabezado {display:grid;grid-template-areas: "buscar titulo log" "img img img" "barra barra barra";grid-template-columns:1fr 2fr 1fr;grid-template-rows:1fr 4fr 0.5fr;align-items:stretch;line-height: 8px ;box-shadow: 0px 0px 40px 40px $tonalidad-verde;background-color: $tonalidad-verde;width: 100%;
+    .encabezado {display:grid;grid-template-areas: "buscar titulo log" "img img img" "barra barra barra";grid-template-columns:1fr 2fr 1fr;grid-template-rows:1fr 3fr 0.5fr;align-items:stretch;line-height: 8px ;box-shadow: 0px 0px 40px 40px $tonalidad-verde;background-color: $tonalidad-verde;width: 100%;
         &__titulo {grid-area:titulo ;display:flex;flex-direction:row ;justify-content:center; color:$tonalidad-amarilla; text-transform:uppercase;margin-top:4vh;text-decoration:none;}
         &__titulo1 {font-size:6vh;margin-left:10vw;}
         &__buscador__1 {display: none;}
         &__buscador__2 {display: none;}
         &__buscador__mobile {display: inline-block;margin-left:6vw;margin-top:4.5vh;}} 
-    .log-regis-carro {display:none;}
     .log-regis-carro__boton {display: none;}
+    .log-regis-carro__carro {display: none;}
     .log-regis-carro__menumobile {display: inline-block;margin-right:5vw;margin-top:4.5vh;}
-    .barranavegadora {display: none;}
     .barranavegadora {display: none;}
     .navbar {display: block;}
     .navbar {display:inline-block;grid-area:log ;margin-right:10vw;margin-top:3vh;}
@@ -70,6 +69,8 @@
     .offcanvaslog {color: $tonalidad-amarilla;height:4vh;width:20vw ;background-color: #0bacafb2;border-radius: 1vh;font-size: 3vw;}
     .dropdown-menu {margin:0;background-color: $tonalidad-verde;}
     .dropdown-item {color:$tonalidad-amarilla;background-color: $tonalidad-verde;margin:1vh 0;}
+    #carouselExampleIndicators {display: none;}
+    .encanezado__imagen { grid-area:img; width:100vw ; height:70vh;border-top: 10px $tonalidad-verdeoscuro; border-bottom: 10px $tonalidad-verdeoscuro; border-style:solid;overflow: hidden;}
     }
 
     @media (min-width:530px) and (max-width:800px) {
