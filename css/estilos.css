@@ -2205,5 +2205,187 @@ html {
     font-weight: lighter;
   }
 }
+/* contacto */
+.principalnosotros {
+  background-image: url(../assets/image/fondo-gamer.webp);
+  margin: 0vw 15vw;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px 300px 100px 300px 500px;
+  align-items: stretch;
+}
+.principalnosotros__titulo {
+  display: flex;
+  grid-column: 1/4;
+  justify-content: center;
+  background-image: linear-gradient(#05595B, rgba(11, 172, 175, 0.6980392157), #E2D784);
+  font-size: 170%;
+  align-items: center;
+  margin: 0;
+}
+.principalnosotros__1, .principalnosotros__3, .principalnosotros__2, .principalnosotros__subtitulo {
+  grid-row: 2;
+  grid-column: 1/4;
+  margin-left: 4vw;
+  color: #4775d1;
+  padding-top: 10px;
+}
+.principalnosotros__1__imagen {
+  width: 20vw;
+  border-radius: 5px;
+  border-width: 10px;
+  border-color: #E2D784;
+  border-style: solid;
+}
+.principalnosotros__subtitulo {
+  grid-row: 3;
+  grid-column: 2;
+  margin: 0;
+  font-size: 3vw;
+}
+.principalnosotros__2 {
+  grid-row: 4;
+  margin-right: 4vw;
+  font-size: 1.3em;
+}
+.principalnosotros__3 {
+  grid-row: 5;
+  margin: 0;
+  overflow: hidden;
+}
+.principalnosotros__3__mapa {
+  height: 500px;
+  width: 70vw;
+}
+
+@media screen and (max-width: 530px) {
+  /* contacto */
+  .principalnosotros {
+    background-color: rgb(228, 228, 228);
+    margin: 0vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 450px 100px 500px 500px;
+    align-items: stretch;
+  }
+  .principalnosotros__titulo {
+    display: flex;
+    grid-column: 1/4;
+    justify-content: center;
+    background-image: linear-gradient(#05595B, rgba(11, 172, 175, 0.6980392157), #E2D784);
+    font-size: 170%;
+    align-items: center;
+    margin: 0;
+  }
+  .principalnosotros__1, .principalnosotros__subtitulo, .principalnosotros__2, .principalnosotros__3 {
+    grid-row: 2;
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .principalnosotros__1__imagen {
+    width: 40vw;
+    height: 40vw;
+  }
+  .principalnosotros__subtitulo {
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    grid-row: 3;
+    grid-column: 2;
+    margin: 0;
+    font-size: 5vw;
+  }
+  .principalnosotros__2 {
+    grid-row: 4;
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    margin-right: 4vw;
+    margin-left: 4vw;
+  }
+  .principalnosotros__3 {
+    grid-row: 5;
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .principalnosotros__3__mapa {
+    height: 500px;
+    width: 100vw;
+  }
+}
+@media (min-width: 530px) and (max-width: 800px) {
+  /* contacto */
+  .principalnosotros {
+    background-color: rgb(228, 228, 228);
+    margin: 0vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 300px 100px 300px 500px;
+    align-items: stretch;
+  }
+  .principalnosotros__titulo {
+    display: flex;
+    grid-column: 1/4;
+    justify-content: center;
+    background-image: linear-gradient(#05595B, rgba(11, 172, 175, 0.6980392157), #E2D784);
+    font-size: 170%;
+    align-items: center;
+    margin: 0;
+  }
+  .principalnosotros__1, .principalnosotros__subtitulo, .principalnosotros__2, .principalnosotros__3 {
+    grid-row: 2;
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .principalnosotros__1__imagen {
+    width: 30vw;
+  }
+  .principalnosotros__subtitulo {
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    grid-row: 3;
+    grid-column: 2;
+    margin: 0;
+    font-size: 5vw;
+  }
+  .principalnosotros__2 {
+    grid-row: 4;
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    margin-right: 4vw;
+    margin-left: 4vw;
+  }
+  .principalnosotros__3 {
+    grid-row: 5;
+    grid-column: 1/4;
+    padding: 0 2vw;
+    color: #4775d1;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .principalnosotros__3__mapa {
+    height: 500px;
+    width: 100vw;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
