@@ -50,7 +50,7 @@ html {
   display: flex;
   object-fit: fill;
   width: 100vw;
-  height: 60vh;
+  height: 400px;
   border-top: 10px #062C30;
   border-bottom: 10px #062C30;
   border-style: solid;

@@ -2,7 +2,7 @@
     @import "../scss/variables";
 /* Encabezado */
     .encabezado {display:grid;grid-template-areas: "buscar titulo log" "img img img" "barra barra barra";grid-template-columns:1fr 2fr 1fr;grid-template-rows:1fr 4fr 0.5fr;align-items:stretch;line-height: 8px ;box-shadow: 0px 0px 40px 40px $tonalidad-verde;background-color: $tonalidad-verde;width: 100%;
-        &__imagen { grid-area:img;display:flex; object-fit:fill; width:100vw ; height:60vh;border-top: 10px $tonalidad-verdeoscuro; border-bottom: 10px $tonalidad-verdeoscuro; border-style:solid;}
+        &__imagen { grid-area:img;display:flex; object-fit:fill; width:100vw ;height:400px;border-top: 10px $tonalidad-verdeoscuro; border-bottom: 10px $tonalidad-verdeoscuro; border-style:solid;}
         &__titulo {grid-area:titulo ;display:flex;flex-direction:row ;justify-content:center; color:$tonalidad-amarilla; text-transform:uppercase;margin:4vh 0 0 0;text-decoration:none;}
         &__titulo1 {font-size:8vh;}
         &__titulo {animation-name:cambiocolor;animation-duration:3s;animation-timing-function: linear;animation-iteration-count: infinite;}
