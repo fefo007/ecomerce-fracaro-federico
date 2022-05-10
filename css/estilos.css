@@ -957,6 +957,9 @@ html {
   .principal__productos__seleccion {
     margin-bottom: 1vh;
   }
+  .principal__productos__seleccion:hover {
+    transform: scale(1);
+  }
   .principal__productos__precio {
     font-size: 25px;
   }
@@ -970,6 +973,7 @@ html {
     background-color: #4775d1;
     border-color: black;
     color: white;
+    height: 25px;
   }
 
   .principalproduc__imagen__1 {
@@ -1134,6 +1138,12 @@ html {
     font-size: 15px;
     margin-left: 40%;
     margin-left: 2vw;
+  }
+  .principal__productos__seleccion {
+    margin-bottom: 1vh;
+  }
+  .principal__productos__seleccion:hover {
+    transform: scale(1);
   }
   .principal__productos__precio {
     font-size: 4vw;

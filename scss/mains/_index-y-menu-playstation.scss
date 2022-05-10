@@ -42,10 +42,10 @@
             &__productos__nombre {display: flex;flex-direction:row;flex-wrap: wrap;font-size:10px;}
             &__productos__nombre1 {font-size:15px;}
             &__productos__descuento{text-decoration:line-through 2px;text-decoration-color:red;text-decoration-style:double;font-size:15px;}
-            &__productos__seleccion {margin-bottom:1vh;}
+            &__productos__seleccion {margin-bottom:1vh;&:hover {transform: scale(1)};}
             &__productos__precio {font-size: 25px;}
             &__productos__botones {display:inline-block;margin-top:5px;}
-            &__productos__botones1 {margin:0px 15px;border-radius: 5px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;}}
+            &__productos__botones1 {margin:0px 15px;border-radius: 5px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;height:25px;}}
         .principalproduc__imagen__1{height:80vw;width:60vw;}
     }
 
@@ -67,6 +67,7 @@
             &__productos__nombre {display: flex;flex-direction:row;flex-wrap: wrap;}
             &__productos__nombre1 {font-size:3vw;margin-left:2vw;}
             &__productos__descuento{display: flex;grid-column:3/4 ;;text-decoration:line-through 2px;text-decoration-color:red;text-decoration-style:double;font-size:15px;margin-left:40% ;margin-left:2vw;}
+            &__productos__seleccion {margin-bottom:1vh;&:hover {transform: scale(1)};}
             &__productos__precio {font-size: 4vw;margin-left:2vw;}
             &__productos__botones {display: flex;flex-direction: column;margin-top:5px;margin-right:10px ;}
             &__productos__botones1 {margin:1vh 1.5vw;border-radius: 5px;background-color: $tonalidad-azul;border-color: black;color: $tonalidad-blanca;height:5vh ;}}
